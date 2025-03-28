@@ -1,0 +1,39 @@
+{
+  "name": "always-dog-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@metamask/sdk": "^0.32.1",
+    "@wagmi/core": "0.10.11",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "daisyui": "^4.4.19",
+    "decimal.js": "^10.5.0",
+    "ethers": "^5.7.2",
+    "events": "^3.3.0",
+    "isomorphic-fetch": "^3.0.0",
+    "naive-ui": "^2.41.0",
+    "process": "^0.11.10",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4",
+    "viem": "^1.0.0",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.2",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
+  }
+}

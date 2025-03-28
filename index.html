@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <title>AlwaysDog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+      /* Force dark background on all container elements */
+      :root, html, body, #app {
+        background-color: #13151C !important;
+      }
+      
+      /* Set background color on the document element */
+      html {
+        min-height: 100%;
+        overflow-y: scroll;
+      }
+      
+      body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Make the app element inherit the background */
+      #app {
+        min-height: 100vh;
+      }
+      
+      /* Apply these styles for mobile and desktop */
+      @media screen {
+        html, body {
+          background-attachment: fixed;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
