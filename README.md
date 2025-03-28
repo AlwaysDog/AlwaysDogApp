@@ -1,9 +1,10 @@
 # AlwaysDogApp# AlwaysDogAPP
 
 ## Overview
-AlwaysDogAPP is a decentralized application (dApp) built on BNB Chain that allows users to seamlessly trade meme coins. The platform focuses on providing a simple and intuitive interface for cryptocurrency trading with a focus on ADOG (AlwaysDog) tokens, which are provided as rewards for platform usage.
+AlwaysDogAPP is a decentralized application (dApp) built on BNB Chain that enables users to trade multiple coins in a single transaction. The platform focuses on providing a simple and intuitive interface for cryptocurrency trading with a focus on ADOG (AlwaysDog) tokens, which are provided as rewards for platform usage.
 
 ## Features
+- **Multi-Token Transactions**: Buy or sell multiple different tokens in a single transaction
 - **Wallet Integration**: Connect with MetaMask wallet for secure transactions
 - **Token Trading**: Buy and sell meme coins and other tokens directly on the platform
 - **BNB Chain Support**: Built specifically for the BNB Chain network
